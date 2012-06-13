@@ -10,4 +10,8 @@
 
 @interface IJFieldInfo : NSObject
 
++ (IJFieldInfo *) extractFieldFromData: (NSData *) data atOffset: (int) offset;
+
+- (int) bitSize;
+
 @end
