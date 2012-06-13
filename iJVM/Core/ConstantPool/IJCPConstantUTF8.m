@@ -17,9 +17,7 @@
 - (NSString *) value {
     
     int size = [self infoSize];
-    
-    NSLog(@"Size: %d", size);
-    
+        
     const char * data = bytes + 2;
     return [[NSString alloc] initWithBytes:data length:size-2 encoding:NSUTF8StringEncoding];
 }

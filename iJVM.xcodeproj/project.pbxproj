@@ -18,6 +18,7 @@
 		7945070B158578090046E0BF /* IJStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 7945070A158578090046E0BF /* IJStream.m */; };
 		7945070F158578F00046E0BF /* IJTextViewStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 7945070E158578F00046E0BF /* IJTextViewStream.m */; };
 		7945071215857B0B0046E0BF /* IJURLLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7945071115857B0B0046E0BF /* IJURLLoader.m */; };
+		79AF513C15880F1600D68AEE /* IJFieldInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 79AF513B15880F1600D68AEE /* IJFieldInfo.m */; };
 		79D3B6BC1586591200C6BB2B /* IJCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D3B6BB1586591200C6BB2B /* IJCore.m */; };
 		79D3B6CC1586649D00C6BB2B /* IJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D3B6CB1586649D00C6BB2B /* IJClass.m */; };
 		79D3B6CF1586656D00C6BB2B /* IJMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D3B6CE1586656D00C6BB2B /* IJMethod.m */; };
@@ -53,6 +54,8 @@
 		7945070E158578F00046E0BF /* IJTextViewStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJTextViewStream.m; sourceTree = "<group>"; };
 		7945071015857B0B0046E0BF /* IJURLLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJURLLoader.h; sourceTree = "<group>"; };
 		7945071115857B0B0046E0BF /* IJURLLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJURLLoader.m; sourceTree = "<group>"; };
+		79AF513A15880F1600D68AEE /* IJFieldInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IJFieldInfo.h; path = Core/IJFieldInfo.h; sourceTree = "<group>"; };
+		79AF513B15880F1600D68AEE /* IJFieldInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IJFieldInfo.m; path = Core/IJFieldInfo.m; sourceTree = "<group>"; };
 		79D3B6BA1586591200C6BB2B /* IJCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IJCore.h; path = Core/IJCore.h; sourceTree = "<group>"; };
 		79D3B6BB1586591200C6BB2B /* IJCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IJCore.m; path = Core/IJCore.m; sourceTree = "<group>"; };
 		79D3B6BD158659FA00C6BB2B /* IJLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJLoader.h; sourceTree = "<group>"; };
@@ -187,6 +190,8 @@
 				79D3B6D11586667C00C6BB2B /* IJHandle.m */,
 				79D3B6F41586731100C6BB2B /* IJAccessFlags.h */,
 				79D3B6F51586731100C6BB2B /* IJAccessFlags.m */,
+				79AF513A15880F1600D68AEE /* IJFieldInfo.h */,
+				79AF513B15880F1600D68AEE /* IJFieldInfo.m */,
 			);
 			name = Core;
 			sourceTree = "<group>";
@@ -294,6 +299,7 @@
 				79D3B6F0158670C600C6BB2B /* IJCPFieldRef.m in Sources */,
 				79D3B6F31586711D00C6BB2B /* IJCPNameAndTypeInfo.m in Sources */,
 				79D3B6F61586731200C6BB2B /* IJAccessFlags.m in Sources */,
+				79AF513C15880F1600D68AEE /* IJFieldInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

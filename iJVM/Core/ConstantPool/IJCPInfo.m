@@ -39,8 +39,6 @@
     
     char type = bytes[0];
     
-    NSLog(@"Type is: %d", type);
-    
     switch (type) {
         case 1:
             info = [IJCPConstantUTF8 alloc];
@@ -61,6 +59,7 @@
             info = [IJCPNameAndTypeInfo alloc];
             break;
         default:
+            NSLog(@"Type is: %d", type);
             break;
     }
     
